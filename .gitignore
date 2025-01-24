@@ -1,5 +1,7 @@
-dataset/set1.parquet
-dataset/set1.csv
+# name of the virtual environment
 solGen
+
+# file containing gh auth token
 private_info.py
+
 __pycache__
