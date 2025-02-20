@@ -1,6 +1,6 @@
-An SFT model trained from the base model facebook-Bart-base intended to interpret legal documents and output tasks written in natural language that enforce these regulations.
+An SFT model trained from the base model facebook-Bart-base intended to take in tasks described in natural language and generate Solidity code snippets that implement them.
 
-The task is considered to be summarisation task. In which the model is expected to interpret legal documents and legislation and extract enforceable elements.
+The task is considered to be text generation task. In which the model is expected to interpret natural lnaguage tasks and generate functions that carry them out.
 
 We get the base model using the transformer library provided by hugging face.
 
